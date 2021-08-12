@@ -1,0 +1,61 @@
+body{
+	background: url(Фон.jpg);
+	margin: 0;
+}
+.header{
+	background: repeating-linear-gradient(90deg, #1e90ff, #ff2dd9 50% , #1e90ff); 	;
+	box-sizing: content-box;
+	height: 100px;
+	width: 100%;
+
+}	
+header h1{
+	position: absolute;
+	margin: 30px;
+	
+	font-family: "Lucida Calligraphy", cursive;
+
+
+}
+.photo{
+	
+	border: 0px;
+	position: static;
+}	
+
+
+
+a{	
+	visibility: hidden;
+	content: "Ссылка";
+	font-family: 0;
+	color: peachpuff;
+	font-size: 0px;
+
+}
+
+a:before{
+	margin-top: 0px;
+	content: "Сылка тут";
+	visibility: visible;
+	font-size: 30px;
+	color: peachpuff;
+	margin-left:-85px;
+	margin-top: 95px;
+	position: absolute;
+	transform: rotate(90deg);	
+}
+
+.me {
+	font-size: 22px;
+	color: white;
+	font-family: monospace;
+	box-sizing: content-box;
+
+
+}
+.me p{
+	margin-top: -30px;
+
+
+}
